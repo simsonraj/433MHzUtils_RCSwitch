@@ -10,7 +10,7 @@ RCSwitch mySwitch = RCSwitch();
 
 void setup() {
   Serial.begin(9600);
-  mySwitch.enableReceive(digitalPinToInterrupt(D2));  // Receiver on interrupt 0 => that is pin #2
+  mySwitch.enableReceive(digitalPinToInterrupt(D2));  // Receiver on interrupt  NODEMCU PIN D2
 }
 
 void loop() {

@@ -13,7 +13,7 @@ void setup() {
 
   Serial.begin(9600);
   
-  // Transmitter is connected to Arduino Pin #10  
+  // Transmitter is connected to NODEMCU PIN D2 
   mySwitch.enableTransmit(digitalPinToInterrupt(D2));
   
   // Optional set protocol (default is 1, will work for most outlets)
